@@ -1,0 +1,67 @@
+body { background-image: url("img/фон.jpg");
+     background-size: cover;
+     font-family: Arial, sans-serif;
+     font-size: 16px;
+     height: 100%;
+}
+
+header {
+ background-color: #FFF8DC;
+ padding: 20px;
+}
+
+a {
+ text-decoration: none;
+ color: #FF4500;
+}
+
+ul {
+ padding: 0;
+ margin: 0;
+ list-style: none;
+}
+
+nav {
+ display:  flex;
+ float: right; 
+}
+
+nav ul {
+ display: flex;
+}
+
+nav li {
+ margin-right: 25px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.main {
+         flex: 1 1 auto;
+         padding: 30px;
+
+ 
+}
+.main h1  {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.main p {
+     font-size: 30px;
+     color: #000000;
+}
+
+footer {
+background-color: #800000;
+ color: #fff;
+ padding: 5px;
+ font-size: 18 px;
+ text-align: center;
+}
+
+
+
